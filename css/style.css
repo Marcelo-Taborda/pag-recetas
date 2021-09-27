@@ -82,15 +82,15 @@ header .fa-sign-in-alt {
     display: flex;
 }
 
-.todo p, .todo a, .todo main li {
+.todo p, .todo a, .todo section li {
     font-size: 20px;
     line-height: 32px;
 }
-main p {
+section p {
     text-align: justify;
     margin-bottom: 20px;
 }
-main {
+section {
     width: calc(80% - 30px);
     margin-right: 20px;
     margin-left: 10px;
@@ -131,7 +131,7 @@ aside .ubicaciones a:hover {
     transition: .3s;
 }
 
-main h2 {
+section h2 {
     background-color: royalblue;
     text-align: center;
     margin-bottom: 20px;
