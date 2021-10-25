@@ -44,6 +44,7 @@ header {
     width: 100%;
     background-color: #1c1c1c;
     color: #fff;
+    z-index: 1000;
 }
 
 header .header {
@@ -60,10 +61,20 @@ header h1 span {
     color: royalblue;
 }
 
+header h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 header nav ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 0px;
 }
 
 header a {
@@ -73,6 +84,10 @@ header a {
     padding: 5px 10px;
     border-bottom: 3px solid #1c1c1c;
     transition: all .3s;
+}
+
+header a:hover {
+    color: #fff;
 }
 
 header nav a:hover {
@@ -98,6 +113,11 @@ header .fa-sign-in-alt {
     font-size: 1.25rem;
     line-height: 32px;
 }
+
+section p {
+    padding: 0px 10px;
+}
+
 section p {
     text-align: justify;
     margin-bottom: 20px;
@@ -119,7 +139,6 @@ aside {
     flex-direction: column;
     align-items: center;
     padding: 60px 20px 20px 20px;
-
 }
 
 aside .ubicaciones {
@@ -158,7 +177,7 @@ aside h2 {
     position: absolute;
     top: 0px;
     width: 100%;
-    background-color: royalblue;
+    background-color: rgb(65, 105, 225);
     text-align: center;
     padding: 10px 0px;
     font-family: "ArchitectsDaughter";
@@ -268,6 +287,22 @@ footer {
     transform: scale(1.3);
     transition: .3s;
 }
+
+.toTop {
+    width: 40px;
+    position: fixed;
+    left: 30px;
+    bottom: 35px;
+    transition: .3s;
+    color: royalblue;
+    display: none;
+}
+
+.toTop:hover {
+    transform: translateY(-5px);
+    transition: .3s;
+}
+
 
 /*PAGINA ACTIVA*/
 .active {

@@ -1,0 +1,75 @@
+@media (max-width: 915px){
+    .header h1, .header nav{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+    }
+}
+
+@media (max-width: 1215px){
+    .todo {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .card {
+        margin: 0px auto;
+        width: 100%;
+    }
+    .airIcon {
+        right: 12px;
+        bottom: 20px;
+    }
+}
+
+@media (max-width: 915px){
+    .todo {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    section {
+        width: 100%;
+        margin-right: 10px;
+    }
+    .card {
+        margin: 0px auto;
+        width: 100%;
+    }
+    aside {
+        display: none;
+    }
+    .airIcon {
+        right: 12px;
+        bottom: 20px;
+    }
+}
+
+@media (max-width: 625px){
+    .todo {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .card {
+        margin: 0px auto;
+        width: 100%;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 140px;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .airIcon {
+        right: 12px;
+        bottom: 20px;
+    }
+    .toTop {
+        display: block;
+    }
+}
