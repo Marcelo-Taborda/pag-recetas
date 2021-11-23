@@ -28,3 +28,13 @@
 .card {
     width: 18rem;
 }
+
+.btn-primary {
+    background-color: #0d6efd !important;
+    border-color: #0d6efd !important;
+}
+
+.btn-primary:hover {
+    background-color: #0055d4 !important;
+    border-color: #0d6efd !important;
+}

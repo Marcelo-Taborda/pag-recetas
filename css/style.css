@@ -26,7 +26,7 @@ h3 {
 
 .todo {
     width: 100%;
-    max-width: 1100px;
+    max-width: 1220px;
     margin: 20px auto;
 }
 
@@ -312,26 +312,51 @@ footer h3 {
 }
 
 
-/*PAGINA ACTIVA*/
+/*PÁGINA ACTIVA*/
 .active {
     color: royalblue;
 }
 
-/*NUEVAS MODIFICACIONES*/
-/* @media (max-width: 904px) {
-    header .header {
-        justify-content: center;
-        align-items: center;
-    }
-    h1 {
-        margin: 10px 0px;
-    }
-    nav {
-        margin-bottom: 10px;
-    }
-    nav ul {
-        justify-content: center;
-        align-items: center;
-    }
-} */
+/*Botón que cambia los colores*/
+.modoBW {
+    max-width: 1200px;
+    background-color: rgba(0, 0, 0, .5);
+    margin: 5px auto -15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.modoBW button {
+    border: none;
+    background-color: #1c1c1c;
+    color: white;
+    padding: 5px;
+    font-size: 16px; 
+    cursor: pointer;
+    transition: .3s;
+}
+.modoBW button:hover {
+    background-color: rgba(28, 28, 28, .75);
+    transition: .3s;
+}
+.modoOscuro {
+    background-color: #1c1c1c !important;
+    color: white !important;
+}
 
+/* BOTON CON LOS DATOS DEL CREADOR */
+footer span {
+    font-size: 1.25rem;
+    margin-top: 20px;
+    padding: 5px;
+    border: 3px solid rgb(65, 105, 225);
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 8px;
+}
+
+footer span:hover {
+    text-shadow: 0px 0px 5px #fff;
+    box-shadow: 0px 0px 5px royalblue;
+    transition: .3s;
+}
