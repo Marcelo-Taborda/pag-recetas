@@ -1,4 +1,4 @@
-/* alert("¿Esta dispuesto a ver el mejor sitio del mundo mundial?") */
+alert("¿Esta dispuesto a ver el mejor sitio del mundo mundial?");
 const cards = document.querySelectorAll(".card-body");
 const boton = document.querySelector(".modoBW").children[0];
 const main = document.querySelector(".todo").children;
